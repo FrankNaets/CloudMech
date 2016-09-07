@@ -1,6 +1,7 @@
 #include <iostream>
 #include <time.h>
 #include <stdlib.h>
+// include armadillo
 
 // Shitty function to pause program
 void sleep(unsigned int mseconds)
@@ -8,6 +9,41 @@ void sleep(unsigned int mseconds)
     clock_t goal = mseconds + clock();
     while (goal > clock());
 }
+
+// function for loading and parsing input file
+
+
+// function for assembling mass and stiffness
+
+
+// function for evaluating balance (static or dynamic)
+
+
+// function for time integration
+
+
+// function for output to php
+
+
+/* main function:
+int main(int argc, char* argv[])
+{
+  
+  // Parse inputs
+  str* inputFile = argv[1];
+  //std::cout << "Number of masses: "<< numberOfMasses << std::endl;
+  
+  // Get mass and stiffness:
+  
+  // Perform simulation
+  
+  // Output results
+  
+  return 0;
+  
+}*/
+
+
 
 // main function:
 int main(int argc, char* argv[])
