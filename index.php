@@ -7,7 +7,8 @@
     
 		<!-- Large textbox for input of BDF file -->
 		<form action="BDFInterface.php" method="post">
-			<textarea class="FormElement" name="BDFInput" id="BDFInput" cols="40" rows="4"></textarea>
+			<textarea class="FormElement" name="BDFInput" id="BDFInput" cols="40" rows="4"></textarea><br>
+			<input type="submit">
 		</form>
 		
 		
